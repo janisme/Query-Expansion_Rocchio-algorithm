@@ -1,4 +1,4 @@
-# CS6111- Advanced Database Systems- Project1: Information retrieval system based on user-provided relevance feedback
+# Project1: Information retrieval system based on user-provided relevance feedback
 ## Purpose
    
    This project serves as an information retrieval system designed to enhance search results provided by Google through user-provided feedback.
@@ -6,6 +6,7 @@
    The objective is to minimize the number of iterations required to achieve the desired precision threshold, thus optimizing the search process.
    
    Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj1.html
+   The project is inspired by CS6111- Advanced Database Systems.
    
 ## Detail
 1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
