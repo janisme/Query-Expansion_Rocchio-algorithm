@@ -63,7 +63,7 @@
 6. Testing Key:
    * Google Custom Search Engine JSON API Key
    ```
-   AIzaSyDB1xiTbkdr2O8KhnWdHrCJ8jBAfdnxii4
+   *************
    ```
    * Engine ID
    ```
