@@ -1,0 +1,702 @@
+python main.py 0.9 "per se"
+Parameters:
+Query     = per se
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Per Se | Thomas Keller Restaurant Group 
+url: https://www.thomaskeller.com/perseny 
+summary: Per Se. Per Se Front Door. center. About. About; Restaurant · Team · Info & Directions · Gift Experiences · Reservations; Menus & Stories. Menus & Stories 
+]
+User feedback = y
+Result 2
+[ 
+title: Perse Definition & Meaning - Merriam-Webster 
+url: https://www.merriam-webster.com/dictionary/perse 
+summary: The meaning of PERSE is of a dark grayish blue resembling indigo. How to use perse in a sentence. Did you know? 
+]
+User feedback = n
+Result 3
+[ 
+title: Per Se - New York, NY | Tock 
+url: https://www.exploretock.com/perse 
+summary: Opened in 2004, Per Se is Thomas Keller's acclaimed interpretation of The French Laundry in the Deutsche Bank Center at Columbus Circle. 
+]
+User feedback = y
+Result 4
+[ 
+title: Per Se – New York - a MICHELIN Guide Restaurant 
+url: https://guide.michelin.com/us/en/new-york-state/new-york/.../per-se 
+summary: Per Se – a Three Stars: Exceptional cuisine restaurant in the 2023 MICHELIN Guide USA. The MICHELIN inspectors' point of view, information on prices, ... 
+]
+User feedback = y
+Result 5
+[ 
+title: Per Se (@perseny) • Instagram photos and videos 
+url: https://www.instagram.com/perseny/ 
+summary: 269K Followers, 199 Following, 943 Posts - See Instagram photos and videos from Per Se (@perseny) 
+]
+User feedback = y
+Result 6
+[ 
+title: per se - Wiktionary, the free dictionary 
+url: https://en.wikipedia.org/wiki/wikt:per_se 
+summary: From Latin per sē (“by itself”), from per (“by, through”) and sē (“itself, himself, herself, themselves”). 
+]
+User feedback = n
+Result 7
+[ 
+title: PER SE | definition in the Cambridge English Dictionary 
+url: https://dictionary.cambridge.org/us/dictionary/english/per-se 
+summary: PER SE meaning: 1. by or of itself: 2. by or of itself: 3. by or of itself: . Learn more. 
+]
+User feedback = n
+Result 8
+[ 
+title: Per Se (restaurant) - Wikipedia 
+url: https://en.wikipedia.org/wiki/Per_Se_(restaurant) 
+summary: Per Se (restaurant) ... Per Se is a New American and French restaurant located at The Shops at Columbus Circle, on the fourth floor of the Deutsche Bank Center at ... 
+]
+User feedback = y
+Result 9
+[ 
+title: James Perse Los Angeles 
+url: https://www.jamesperse.com/ 
+summary: James Perse. Women. Women; Apparel. Apparel Main Menu; New Arrivals · At Home Essentials · Classics · Dresses/Jumpsuits · Sweaters/Cashmere · T-shirts. 
+]
+User feedback = n
+Result 10
+[ 
+title: per se | Wex | US Law | LII / Legal Information Institute 
+url: https://www.law.cornell.edu/wex/per_se 
+summary: Primary tabs. Latin for “by itself,” in other words, inherently. For example, in tort law, a statutory violation is negligence per se. One of the elements a ... 
+]
+User feedback = n
+----------------------
+Current precision = 5
+Threshold precision = 9
+======================
+new query:  per se michelin restaurant
+Result 1
+[ 
+title: Per Se | Thomas Keller Restaurant Group 
+url: https://www.thomaskeller.com/perseny 
+summary: Private Dining & Events · Per Se. Per Se Front Door. center. About. About; Restaurant · Team · Info & Directions · Gift Experiences · Reservations; Menus & ... 
+]
+User feedback = y
+Result 2
+[ 
+title: Per Se – New York - a MICHELIN Guide Restaurant 
+url: https://guide.michelin.com/us/en/new-york-state/new.../restaurant/per-se 
+summary: Per Se – a Three Stars: Exceptional cuisine restaurant in the 2023 MICHELIN Guide USA. The MICHELIN inspectors' point of view, information on prices, ... 
+]
+User feedback = y
+Result 3
+[ 
+title: Per Se (restaurant) - Wikipedia 
+url: https://en.wikipedia.org/wiki/Per_Se_(restaurant) 
+summary: Per Se (restaurant) · Michelin Guide: 3 Michelin stars · AAA Five Diamond Award (2013-2023) · The New York Times: 2 out of 4 stars · The World's 50 Best Restaurants ... 
+]
+User feedback = y
+Result 4
+[ 
+title: Per Se (@perseny) • Instagram photos and videos 
+url: https://www.instagram.com/perseny/ 
+summary: Per Se. रेस्टुरेन्ट. Chef Thomas Keller's 3-Star Michelin restaurant overlooking Columbus Circle & Central Park located in New York City. 10 ... 
+]
+User feedback = y
+Result 5
+[ 
+title: Per Se - New York, NY | Tock 
+url: https://www.exploretock.com/perse 
+summary: ... Michelin-starred property featuring Chef's tasting menu and a vegetable ... restaurant is Chef Keller's second three-Michelin-starred property featuring ... 
+]
+User feedback = y
+Result 6
+[ 
+title: The Per Se Experience: Saturday Afternoon Lunch in New York with ... 
+url: https://www.thewholeworldisaplayground.com/the-per-se-experience-saturd... 
+summary: Feb 27, 2021 ... ... Per Se, one of New York's finest three Michelin Star restaurants. Easier said than done! Being the super organized soul that I am, I missed ... 
+]
+User feedback = y
+Result 7
+[ 
+title: My Stagè at 3 Starred Michelin Restaurant, Per Se - Lovefoodmore ... 
+url: https://lovefoodmore.com/per-se/ 
+summary: Sep 28, 2019 ... “Congratulations, Chef Corey would like to offer you a position as a commis at Per Se” A message I received from Elaine Smyth. She was whom I ... 
+]
+User feedback = y
+Result 8
+[ 
+title: One excited food enthusiast's review of Per Se – Multiple Forks of a ... 
+url: https://multipleforks.wordpress.com/.../one-excited-food-enthusiasts-review... 
+summary: Jan 18, 2019 ... He is also the only American chef to have been awarded simultaneous three-star Michelin ratings for two different restaurants. (Whew, let me ... 
+]
+User feedback = y
+Result 9
+[ 
+title: PER SE, New York City - Hell's Kitchen - Menu, Prices & Restaurant ... 
+url: https://www.tripadvisor.com/Restaurant_Review-g60763-d425628-Reviews... 
+summary: Three MICHELIN Stars: Exceptional cuisine, worth a special journey! Menu. TASTING OF VEGETABLES. Hass Avocado ... 
+]
+User feedback = y
+Result 10
+[ 
+title: Video: Per Se - Our Most Expensive Meal Ever 
+url: https://andershusa.com/per-se-new-york-thomas-keller-most-expensive-mea... 
+summary: Mar 15, 2022 ... Chef Thomas Keller's flagship NYC restaurant, Per Se, is his tribute to French Laundry on the east coast. It has held three Michelin stars ... 
+]
+User feedback = y
+----------------------
+Current precision = 10
+Threshold precision = 9
+======================
+
+python main.py  0.9 "wojcicki"
+Parameters:
+Query     = wojcicki
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Susan Wojcicki - Wikipedia 
+url: https://en.wikipedia.org/wiki/Susan_Wojcicki 
+summary: Susan Wojcicki ... Susan Diane Wojcicki (/wʊˈtʃɪtski/ woo-CHITS-kee; born July 5, 1968) is an American business executive who was the chief executive officer (CEO) ... 
+]
+User feedback = n
+Result 2
+[ 
+title: Susan Wojcicki (@SusanWojcicki) / X 
+url: https://twitter.com/susanwojcicki?lang=en 
+summary: Susan Wojcicki's posts ... 's team and innovative solutions in sustainability and security to enable transparency and accountability for countries, communities ... 
+]
+User feedback = n
+Result 3
+[ 
+title: Susan Wojcicki (@susanwojcicki) • Instagram photos and videos 
+url: https://www.instagram.com/susanwojcicki/?hl=en 
+summary: 55K Followers, 124 Following, 40 Posts - See Instagram photos and videos from Susan Wojcicki (@susanwojcicki) 
+]
+User feedback = n
+Result 4
+[ 
+title: Esther Wojcicki 
+url: https://www.facebook.com/esther.wojcicki/ 
+summary: Psi and was thriving academically. At home, he would tell us endless stories of his life and friends at Berkeley. Marco's life was cut too short. And we are all 
+]
+User feedback = n
+Result 5
+[ 
+title: Esther Wojcicki (@heywoj) • Instagram photos and videos 
+url: https://www.instagram.com/heywoj/?hl=en 
+summary: 7655 Followers, 1578 Following, 1870 Posts - See Instagram photos and videos from Esther Wojcicki (@heywoj) 
+]
+User feedback = n
+Result 6
+[ 
+title: Susan Wojcicki - YouTube | LinkedIn 
+url: https://www.linkedin.com/in/susan-wojcicki-b136a99 
+summary: View Susan Wojcicki's profile on LinkedIn, the world's largest professional community. Susan has 2 jobs listed on their profile. See the complete profile on ... 
+]
+User feedback = n
+Result 7
+[ 
+title: Son of Former YouTube CEO Susan Wojcicki Found Dead at UC ... 
+url: https://people.com/son-of-susan-wojcicki-found-dead-at-uc-berkeley-8584... 
+summary: 1 day ago ... Marco Troper, a UC Berkeley student who was the 19-year-old son of former YouTube CEO Susan Wojcicki, was found dead on his college campus ... 
+]
+User feedback = n
+Result 8
+[ 
+title: Ed Wojcicki - Retired... but Consulting and Writing - Retired | LinkedIn 
+url: https://www.linkedin.com/in/ed-wojcicki-bb02abb 
+summary: Author/co-author of three books, freelance writer and editor, author of a wide range of articles on topics ranging from Illinois government to Henri Nouwen to ... 
+]
+User feedback = n
+Result 9
+[ 
+title: Susan Wojcicki 
+url: https://www.forbes.com/profile/susan-wojcicki/ 
+summary: 32 Susan Wojcicki on the 2023 America's Self-Made Women - Susan Wojcicki was CEO of Alphabet subsidiary YouTube from 2014 until February 2023. She now. 
+]
+User feedback = n
+Result 10
+[ 
+title: Family tragedy for former YouTube CEO Susan Wojcicki | TechCrunch 
+url: https://techcrunch.com/.../family-tragedy-for-former-youtube-ceo-susan-w... 
+summary: 9 hours ago ... Earlier this week, the 19-year-old son of former YouTube CEO Susan Wojcicki, was found dead at UC Berkeley of an apparent drug overdose, ... 
+]
+User feedback = n
+
+
+python main.py  0.9 "cases"
+Parameters:
+Query     = cases
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: CASES: Home 
+url: https://www.cases.org/ 
+summary: From court and program offices in the Bronx, Brooklyn, and Manhattan, CASES provides community-based alternatives to jail and prison. 
+]
+User feedback = n
+Result 2
+[ 
+title: cases | International Criminal Court 
+url: https://www.icc-cpi.int/cases 
+summary: Banda. At large. Case also involved Saleh Mohammed Jerbo Jamus but proceedings against him were terminated on 4 October 2013 following ... 
+]
+User feedback = n
+Result 3
+[ 
+title: COVID - Coronavirus Statistics - Worldometer 
+url: https://www.worldometers.info/coronavirus/ 
+summary: Daily and weekly updated statistics tracking the number of COVID-19 cases, recovered, and deaths. Historical data with cumulative ... 
+]
+User feedback = y
+Result 4
+[ 
+title: CASETiFY: Show Your Colors 
+url: https://www.casetify.com/ 
+summary: CASETiFY - We make the most sustainable yet protective phone cases for iPhone 15 / iPhone 15 Pro / iPhone 15 Plus / iPhone 15 Pro ... 
+]
+User feedback = n
+Result 5
+[ 
+title: Automated Case Information 
+url: https://acis.eoir.justice.gov/ 
+summary: EOIR Automated Case Information ... Please check https://www.justice.gov/eoir-operational-status for up to date closures. ... Welcome to ... 
+]
+User feedback = n
+Result 6
+[ 
+title: Maryland Judiciary Case Search 
+url: https://casesearch.courts.state.md.us/ 
+summary: Confidential records and information will not be returned in your search results. The information displayed on this Web Site is ... 
+]
+User feedback = n
+Result 7
+[ 
+title: Cases | INTERNATIONAL COURT OF JUSTICE 
+url: https://www.icj-cij.org/cases 
+summary: Main navigation ... The Court has a twofold role: to settle, in accordance with international law, legal disputes submitted to it by ... 
+]
+User feedback = n
+Result 8
+[ 
+title: 2023-2024 Term | Oyez 
+url: https://www.oyez.org/cases 
+summary: US Supreme Court cases from the 2023-2024 term. 
+]
+User feedback = n
+Result 9
+[ 
+title: Measles Cases and Outbreaks | CDC 
+url: https://www.cdc.gov/measles/cases-outbreaks.html 
+summary: Measles cases in 2019 · From January 1 to December 31, 2019, 1,274* individual cases of measles were confirmed in 31 states. · This is ... 
+]
+User feedback = n
+Result 10
+[ 
+title: Public Access to Court Electronic Records | PACER: Federal Court ... 
+url: https://pacer.uscourts.gov/ 
+summary: Search for a case in the federal court where the case was filed, or; Search a nationwide index of federal court cases. The PACER ... 
+]
+User feedback = n
+----------------------
+Current precision = 1
+Threshold precision = 9
+======================
+new query:  covid cases statistics
+Result 1
+[ 
+title: COVID - Coronavirus Statistics - Worldometer 
+url: https://www.worldometers.info/coronavirus/ 
+summary: Coronavirus Cases: 703,470,617. view by country. Deaths: 6,984,533. Recovered: 674,224,864. Active Cases. 22,261,220. Currently Infected Patients. 22,225,509 ( ... 
+]
+User feedback = y
+Result 2
+[ 
+title: CDC COVID Data Tracker: Home 
+url: https://covid.cdc.gov/ 
+summary: Test Positivity. % Test Positivity. 9.3%. (February 4 to February 10, 2024) · Emergency Department Visits. % Diagnosed as COVID-19. 1.8%. (February 4 to February ... 
+]
+User feedback = y
+Result 3
+[ 
+title: WHO COVID-19 dashboard: COVID-19 cases 
+url: https://covid19.who.int/ 
+summary: Source: World Health Organization. Why is COVID-19 data being presented as weekly statistics? 
+]
+User feedback = y
+Result 4
+[ 
+title: COVID-19 Map - Johns Hopkins Coronavirus Resource Center 
+url: https://coronavirus.jhu.edu/map.html 
+summary: Coronavirus COVID-19 Global Cases by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU) 
+]
+User feedback = y
+Result 5
+[ 
+title: COVID-19: Latest Data - NYC Health 
+url: https://www.nyc.gov/site/doh/covid/covid-19-data.page 
+summary: ... Cases Hospitalizations Deaths. Cases Hospitalizations Deaths. Outcomes by ZIP Code. These data show hospitalization and death rates over the last 28 days of ... 
+]
+User feedback = y
+Result 6
+[ 
+title: Michigan Data 
+url: https://www.michigan.gov/coronavirus/stats 
+summary: ... stats. Back to Coronavirus. outline of the shape of Michigan state in teal ... COVID-19 Cases by County. Confirmed cases include individuals with a positive ... 
+]
+User feedback = y
+Result 7
+[ 
+title: Coronavirus (COVID-19) Cases - Our World in Data 
+url: https://ourworldindata.org/covid-cases 
+summary: This chart shows the number of confirmed COVID-19 cases per day. What is important to note about these case figures? The reported case figures on a given date ... 
+]
+User feedback = y
+Result 8
+[ 
+title: LA County Daily COVID-19 Data - LA County Department of Public ... 
+url: http://publichealth.lacounty.gov/media/coronavirus/data/ 
+summary: Updated once per week on Thursdays. Overview Graphs. Overview Table. Cases/Deaths. TK-12 Schools. 
+]
+User feedback = y
+Result 9
+[ 
+title: Coronavirus Pandemic (COVID-19) - Our World in Data 
+url: https://ourworldindata.org/coronavirus 
+summary: COVID-19 cases. Explore the data on confirmed COVID-19 cases for all ... We built 207 country profiles which allow you to explore the statistics on the ... 
+]
+User feedback = y
+Result 10
+[ 
+title: COVID-19 Reporting | Mass.gov 
+url: https://www.mass.gov/info-details/covid-19-reporting 
+summary: The COVID-19 Dashboard includes data on city/town COVID-19 activity, confirmed and probable cases of COVID-19, confirmed and probable deaths related to ... 
+]
+User feedback = y
+----------------------
+Current precision = 10
+Threshold precision = 9
+======================
+
+python main.py  0.9 "jaguar"
+Parameters:
+Query     = jaguar
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Market Selector | Jaguar | View the site in your preferred language 
+url: https://www.jaguar.com/market-selector.html 
+summary: Discover the different language sites we have to make browsing our vehicle range's easier. We have over 100 different language options available. 
+]
+User feedback = y
+Result 2
+[ 
+title: Jaguar USA: Jaguar Sedans, SUVs and Sports Cars - Official Site 
+url: https://www.jaguarusa.com/index.html 
+summary: The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports cars. Build Your Own, Book a Test Drive or Find a Retailer near you. 
+]
+User feedback = y
+Result 3
+[ 
+title: Jaguar - Wikipedia 
+url: https://en.wikipedia.org/wiki/Jaguar 
+summary: The jaguar is a compact and muscular animal. It is the largest cat native to the Americas and the third largest in the world, exceeded in size only by the tiger ... 
+]
+User feedback = n
+Result 4
+[ 
+title: All Models - Luxury Sedans, Sports Cars & SUVs | Jaguar USA 
+url: https://www.jaguarusa.com/all-models/index.html 
+summary: Explore the latest and newest cars by Jaguar. From performance crossover SUVs, luxury sport sedans, coupe and convertibles to future concept cars. 
+]
+User feedback = y
+Result 5
+[ 
+title: Jaguar Homepage International 
+url: https://media.jaguar.com/en 
+summary: All The Latest Images And Photos Of The Iconic Jaguar Models. Browse Through Our Archives Quickly And Easily, And Download Low Or High Resolution Shots. 
+]
+User feedback = y
+Result 6
+[ 
+title: Jaguar Restaurant: Home 
+url: https://jaguarrestaurant.com/ 
+summary: Latin American Habitat. Respected and revered for thousand of years, the jaguar has played an important role in the ecosystems of its natural habitat, Central ... 
+]
+User feedback = n
+Result 7
+[ 
+title: Jaguar Cars - Wikipedia 
+url: https://en.wikipedia.org/wiki/Jaguar_Cars 
+summary: Jaguar was spun off from British Leyland and was listed on the London Stock Exchange in 1984 until it was acquired by Ford in 1990. ... Since the late 1970s, ... 
+]
+User feedback = y
+Result 8
+[ 
+title: Jaguar (@jaguar) • Instagram photos and videos 
+url: https://www.instagram.com/jaguar/?hl=en 
+summary: 14M Followers, 1 Following, 181 Posts - See Instagram photos and videos from Jaguar (@jaguar) 
+]
+User feedback = y
+Result 9
+[ 
+title: REIMAGINE | JLR Corporate Website 
+url: https://www.jaguarlandrover.com/reimagine 
+summary: Jaguar Land Rover and Wolfspeed, Inc. have announced a strategic partnership to supply Silicon Carbide semiconductors for next generation electric vehicles, ... 
+]
+User feedback = y
+Result 10
+[ 
+title: Jaguar | Species | WWF 
+url: https://www.worldwildlife.org/species/jaguar 
+summary: The lands once ruled by jaguars are being destroyed by logging, large-scale agriculture, ranchland, and urban areas. Habitat fragmentation makes it incredibly ... 
+]
+User feedback = n
+----------------------
+Current precision = 7
+Threshold precision = 9
+======================
+new query:  jaguar sedans cars
+Result 1
+[ 
+title: Jaguar USA: Jaguar Sedans, SUVs and Sports Cars - Official Site 
+url: https://www.jaguarusa.com/index.html 
+summary: The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports cars. Build Your Own, Book a Test Drive or Find a Retailer near you. 
+]
+User feedback = y
+Result 2
+[ 
+title: Used Jaguar Sedans for Sale Near Me | Cars.com 
+url: https://www.cars.com/shopping/jaguar/sedan/ 
+summary: Used Jaguar sedans for sale near me · 2015 Jaguar XJ Base · 2017 Jaguar XE 35t Premium · 2017 Jaguar XF 35t Premium · 2018 Jaguar XE 25t Premium · 2017 Jaguar ... 
+]
+User feedback = y
+Result 3
+[ 
+title: All Models - Luxury Sedans, Sports Cars & SUVs | Jaguar USA 
+url: https://www.jaguarusa.com/all-models/index.html 
+summary: Explore the latest and newest cars by Jaguar. From performance crossover SUVs, luxury sport sedans, coupe and convertibles to future concept cars. 
+]
+User feedback = y
+Result 4
+[ 
+title: Used Jaguar Sedans for Sale (with Photos) - CARFAX 
+url: https://www.carfax.com/Used-Jaguar-Sedans_m15_bt7 
+summary: Listings 1 - 25 of 1135 ... Find the best used Jaguar Sedans near you. Every used car for sale comes with a free CARFAX Report. We have 717 Jaguar Sedans for ... 
+]
+User feedback = y
+Result 5
+[ 
+title: Shop the Full Line of Jaguar Sedan Vehicles | Jaguar USA 
+url: https://www.jaguarusa.com/all-models/type/sedans.html 
+summary: Explore the latest and newest generation luxury sedan vehicles by Jaguar, including the mid-size XF. 
+]
+User feedback = y
+Result 6
+[ 
+title: Market Selector | Jaguar | View the site in your preferred language 
+url: https://www.jaguar.com/market-selector.html 
+summary: Discover the different language sites we have to make browsing our vehicle range's easier. We have over 100 different language options available. 
+]
+User feedback = y
+Result 7
+[ 
+title: Used Jaguar Sedans for Sale 
+url: https://www.carmax.com/cars/jaguar/sedans 
+summary: Used Jaguar Sedans for Sale on carmax.com. Search used cars, research vehicle models, and compare cars, all online at carmax.com. 
+]
+User feedback = y
+Result 8
+[ 
+title: Jaguar Sedan Models | Kelley Blue Book 
+url: https://www.kbb.com/jaguar/sedans/ 
+summary: Jaguar Sedans · 2024 Jaguar XF · 2023 Jaguar XF · 2022 Jaguar XF · 2021 Jaguar XF · 2020 Jaguar XE · 2020 Jaguar XF · 2019 Jaguar XE · 2019 Jaguar XF. 
+]
+User feedback = y
+Result 9
+[ 
+title: Used Jaguar Sedan & Coupe Cars | Jaguar Troy 
+url: https://www.jaguartroy.com/used-inventory/jaguar-sedans-and-coupes.htm 
+summary: Jaguar is world famous for producing some of the finest luxury and sport sedans on the market. Choosing a pre-owned model is a great way to get this premium ... 
+]
+User feedback = y
+Result 10
+[ 
+title: Certified Pre-Owned Jaguar | Quality Inspected & Guaranteed | Jaguar 
+url: https://inventory.jaguarusa.com/used-certified/ 
+summary: Explore our inventory of certified pre-owned Jaguar vehicles. Rigorous inspection process and comprehensive warranty. Find your Jaguar today! 
+]
+User feedback = y
+----------------------
+Current precision = 10
+Threshold precision = 9
+======================
+
+python main.py  0.9 "jaguar"
+
+Parameters:
+Query     = jaguar
+Precision = 0.9
+Google Search Results:
+======================
+Result 1
+[ 
+title: Market Selector | Jaguar | View the site in your preferred language 
+url: https://www.jaguar.com/market-selector.html 
+summary: Discover the different language sites we have to make browsing our vehicle range's easier. We have over 100 different language options available. 
+]
+User feedback = n
+Result 2
+[ 
+title: Jaguar USA: Jaguar Sedans, SUVs and Sports Cars - Official Site 
+url: https://www.jaguarusa.com/index.html 
+summary: The official home of Jaguar USA. Explore our luxury sedans, SUVs and sports cars. Build Your Own, Book a Test Drive or Find a Retailer near you. 
+]
+User feedback = n
+Result 3
+[ 
+title: Jaguar - Wikipedia 
+url: https://en.wikipedia.org/wiki/Jaguar 
+summary: The jaguar is a compact and muscular animal. It is the largest cat native to the Americas and the third largest in the world, exceeded in size only by the tiger ... 
+]
+User feedback = y
+Result 4
+[ 
+title: All Models - Luxury Sedans, Sports Cars & SUVs | Jaguar USA 
+url: https://www.jaguarusa.com/all-models/index.html 
+summary: Explore the latest and newest cars by Jaguar. From performance crossover SUVs, luxury sport sedans, coupe and convertibles to future concept cars. 
+]
+User feedback = n
+Result 5
+[ 
+title: Jaguar Homepage International 
+url: https://media.jaguar.com/en 
+summary: All The Latest Images And Photos Of The Iconic Jaguar Models. Browse Through Our Archives Quickly And Easily, And Download Low Or High Resolution Shots. 
+]
+User feedback = n
+Result 6
+[ 
+title: Jaguar Restaurant: Home 
+url: https://jaguarrestaurant.com/ 
+summary: Latin American Habitat. Respected and revered for thousand of years, the jaguar has played an important role in the ecosystems of its natural habitat, Central ... 
+]
+User feedback = n
+Result 7
+[ 
+title: Jaguar Cars - Wikipedia 
+url: https://en.wikipedia.org/wiki/Jaguar_Cars 
+summary: Jaguar was spun off from British Leyland and was listed on the London Stock Exchange in 1984 until it was acquired by Ford in 1990. ... Since the late 1970s, ... 
+]
+User feedback = n
+Result 8
+[ 
+title: Jaguar (@jaguar) • Instagram photos and videos 
+url: https://www.instagram.com/jaguar/?hl=en 
+summary: 14M Followers, 1 Following, 181 Posts - See Instagram photos and videos from Jaguar (@jaguar) 
+]
+User feedback = n
+Result 9
+[ 
+title: REIMAGINE | JLR Corporate Website 
+url: https://www.jaguarlandrover.com/reimagine 
+summary: Jaguar Land Rover and Wolfspeed, Inc. have announced a strategic partnership to supply Silicon Carbide semiconductors for next generation electric vehicles, ... 
+]
+User feedback = n
+Result 10
+[ 
+title: Jaguar | Species | WWF 
+url: https://www.worldwildlife.org/species/jaguar 
+summary: The lands once ruled by jaguars are being destroyed by logging, large-scale agriculture, ranchland, and urban areas. Habitat fragmentation makes it incredibly ... 
+]
+User feedback = y
+----------------------
+Current precision = 2
+Threshold precision = 9
+======================
+new query:  jaguar native largest
+Result 1
+[ 
+title: Natural history - jaguar 
+url: https://www.biologicaldiversity.org/species/.../jaguar/natural_history.html 
+summary: DESCRIPTION: The largest cat native to North America and the third largest in the world (after lions and tigers), the jaguar measures five to eight feet ... 
+]
+User feedback = y
+Result 2
+[ 
+title: Jaguar - Wikipedia 
+url: https://en.wikipedia.org/wiki/Jaguar 
+summary: The jaguar (Panthera onca) is a large cat species and the only living member of the genus Panthera native to the Americas. With a body length of up to 1.85 ... 
+]
+User feedback = y
+Result 3
+[ 
+title: Here are our top 10 facts about Jaguars | WWF 
+url: https://www.wwf.org.uk/learn/fascinating-facts/jaguars 
+summary: Sep 20, 2023 ... The word 'jaguar' comes from the indigenous ... They can even tackle South America's largest animal, the tapir, and huge predators like caiman. 
+]
+User feedback = y
+Result 4
+[ 
+title: Meet the Americas' black (big) cat: six facts about black jaguars ... 
+url: https://wwf.ca/.../meet-the-americas-black-big-cat-six-facts-about-black-jag... 
+summary: Oct 27, 2021 ... WWF-Canada is introducing six new species for you to symbolically adopt and take home, including a black jaguar. 
+]
+User feedback = y
+Result 5
+[ 
+title: WCS Brazil > Wildlife > Jaguars > Threats 
+url: https://brasil.wcs.org/en-us/wildlife/jaguars/threats.aspx 
+summary: ... species (e.g., caiman) on which jaguar depend. In the near future, the 3 biggest threats to jaguars in the Amazon are: clearance of native ecosystems in ... 
+]
+User feedback = y
+Result 6
+[ 
+title: Kingdom of the Jaguar 
+url: https://undp.shorthandstories.com/gef-sgp-kingdom-of-the-jaguar/ 
+summary: The jaguar is the largest carnivore and only native big cat in the Americas. ... leading to assaults on a particular species. When locals perceive livestock or ... 
+]
+User feedback = y
+Result 7
+[ 
+title: WEC 167/UW176: Jaguar: Another Threatened Panther 
+url: https://edis.ifas.ufl.edu/publication/UW176 
+summary: Jaguars are massive cats, much larger than even the biggest Florida panther. The size of these cats varies regionally. The largest jaguar ever recorded was ... 
+]
+User feedback = y
+Result 8
+[ 
+title: The Americas have native big cats like the bobcat, jaguar, ocelot ... 
+url: https://www.quora.com/The-Americas-have-native-big-cats-like-the-bobcat... 
+summary: May 8, 2019 ... There were no domestic breeds of cats in North America prior to Europeans coming here. The natives had dogs as hunting partners, pets and ... 
+]
+User feedback = y
+Result 9
+[ 
+title: Jaguar (Panthera onca) | U.S. Fish & Wildlife Service 
+url: https://www.fws.gov/species/jaguar-panthera-onca 
+summary: Items 1 - 10 of 31 ... A large, heavy-bodied, big-headed cat. Yellowish to tawny, spotted with black rosettes or rings in horizontal rows along the back and ... 
+]
+User feedback = y
+Result 10
+[ 
+title: Jaguars in America: The case for rewilding the US southwest with ... 
+url: https://www.vox.com/.../american-jaguar-species-restoration-arizona-new-... 
+summary: Oct 12, 2021 ... Indigenous scientists can play a role in restoring jaguars ... Pueblo religion talks of a rohona, a mythical “big cat with spots” that scholars ... 
+]
+User feedback = y
+----------------------
+Current precision = 10
+Threshold precision = 9
+======================
