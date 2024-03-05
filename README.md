@@ -6,6 +6,7 @@
    The objective is to minimize the number of iterations required to achieve the desired precision threshold, thus optimizing the search process.
    
    Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj1.html
+   
    The project is inspired by CS6111- Advanced Database Systems.
    
 ## Detail
