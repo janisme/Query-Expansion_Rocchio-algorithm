@@ -26,7 +26,7 @@
    ```
 4. Description of the internal design of this project:
 
-   * Hign-level Concept:
+   * High-level Concept:
      1. Parse command-line arguments (precision and query).
      2. Build the Google Custom Search service. [build_service]
      2. Use the Engine ID with the server we set and the original query to get the search result. [search_by_query]
