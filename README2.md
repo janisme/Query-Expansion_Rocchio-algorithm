@@ -60,16 +60,16 @@ Reference: https://www.cs.columbia.edu/~gravano/cs6111/Proj2/
      7. If the number of extracted relations > $output_len, teriminate the program. The result relations sets remain all the tuples extractd which may > k.
 
    * External libraries used:
-     1. googleapiclient.discovery: Part of the Google API Client Library for Python. Used to create and work with Google APIs in a Pythonic way. In this case, likely for querying Google Custom Search Engine or other Google services.
-    2. sys: Part of Python's standard library. Provides access to some variables used or maintained by the Python interpreter and to functions that interact strongly with the interpreter. Commonly used for manipulating Python runtime environment.
-    3. bs4 (BeautifulSoup): A library for parsing HTML and XML documents. Used for web scraping, allowing easy navigation of the parse tree and searching for elements by attributes, tags.
-    4. requests: A simple, yet elegant HTTP library. Used for making HTTP requests in Python, such as GET, POST, etc. Process of working with APIs or fetching web content.
-    5. spacy: An industrial-strength natural language processing (NLP) library. Provides capabilities for tokenization, entity recognition, dependency parsing, and more.
-    6. SpanBERT.spanbert: A library/module possibly related to SpanBERT, an extension of BERT (Bidirectional Encoder Representations from Transformers) focused on improving span-based NLP tasks. Used here for tasks such as entity recognition, relation extraction, or question answering.
-    7. SpanBERT.spacy_help_functions: Custom module, containing helper functions to integrate SpanBERT predictions with spaCy document objects or to assist with NLP tasks using spaCy and SpanBERT together.
-    8. re:Part of Python's standard library. Provides regular expression matching operations similar to those found in Perl. Used for string searching and manipulation.
-    9. time: Part of Python's standard library.Used for timing operations: adding delays.
-    10. google.generativeai and google.api_core.exceptions: Part of the Google Cloud client libraries. Used for interacting with Google's generative AI services, such as accessing the Gemini API for text generation. The exceptions module handles API-related errors.
+       1. googleapiclient.discovery: Part of the Google API Client Library for Python. Used to create and work with Google APIs in a Pythonic way. In this case, likely for querying Google Custom Search Engine or other Google services.
+       2. sys: Part of Python's standard library. Provides access to some variables used or maintained by the Python interpreter and to functions that interact strongly with the interpreter. Commonly used for manipulating Python runtime environment.
+       3. bs4 (BeautifulSoup): A library for parsing HTML and XML documents. Used for web scraping, allowing easy navigation of the parse tree and searching for elements by attributes, tags.
+       4. requests: A simple, yet elegant HTTP library. Used for making HTTP requests in Python, such as GET, POST, etc. Process of working with APIs or fetching web content.
+       5. spacy: An industrial-strength natural language processing (NLP) library. Provides capabilities for tokenization, entity recognition, dependency parsing, and more.
+       6. SpanBERT.spanbert: A library/module possibly related to SpanBERT, an extension of BERT (Bidirectional Encoder Representations from Transformers) focused on improving span-based NLP tasks. Used here for tasks such as entity recognition, relation extraction, or question answering.
+       7. SpanBERT.spacy_help_functions: Custom module, containing helper functions to integrate SpanBERT predictions with spaCy document objects or to assist with NLP tasks using spaCy and SpanBERT together.
+       8. re:Part of Python's standard library. Provides regular expression matching operations similar to those found in Perl. Used for string searching and manipulation.
+       9. time: Part of Python's standard library.Used for timing operations: adding delays.
+       10. google.generativeai and google.api_core.exceptions: Part of the Google Cloud client libraries. Used for interacting with Google's generative AI services, such as accessing the Gemini API for text generation. The exceptions module handles API-related errors.
 
 6. Description of SpanBERT and GEMINI method:
    * Information Extraction[information_extraction]:
