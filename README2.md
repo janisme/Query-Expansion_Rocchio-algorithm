@@ -56,7 +56,7 @@ Reference: https://www.cs.columbia.edu/~gravano/cs6111/Proj2/
      3. Iterates through URLs, and filter out the URL that have seen.
      4. For each unseen URL, extract the content and do extract named entities using spaCy. If the content characters >10000, trim the webpage content to 10000. Determine by the model specified, run SB or run_gemini to do information extraction.[information_extraction, page_extraction]
      5. For each query iteration, print out all the extracted relations.[print_pretty_relations]
-     6. If the number of extracted relations < $output_len, concatenating the original query with relation that has the highest confident rate and jump back to step 2.
+     6. If the number of extracted relations < $output_len, concatenating the the subject and object in a relation that has the highest confident rate and jump back to step 2.
      7. If the number of extracted relations > $output_len, teriminate the program. The result relations sets remain all the tuples extractd which may > k.
 
    * External libraries used:
