@@ -19,8 +19,8 @@ Reference: https://www.cs.columbia.edu/~gravano/cs6111/Proj2/
     * `gemini.py`: This Python script integrates Google's Generative AI (Gemini API) for relation extraction tasks. It defines functions to generate prompts for Gemini, fetch responses from the API, and extract relation tuples.
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
     * `requirements.txt`: This file lists all the packages used in the project, ensuring compatibility and ease of setup for other users.
-    * `transcript_spanbert.txt`: This file contains the results using SpanBERT classifier with input parameters:`-spanbert 2 0.7 "bill gates microsoft" 10`.
-    * `transcript_gemini.txt`: This file contains the results using Google Gemini API(Gemini 1.0 Pro model) with input parameters:`-gemini 2 0.0 "bill gates microsoft" 10`.
+    * `transcript_spanbert.txt`: This file contains the results using SpanBERT classifier with input parameters:`-spanbert 2 0.7 "bill gates microsoft" 10`.Complete in 1 interation with 45 relations extracted.
+    * `transcript_gemini.txt`: This file contains the results using Google Gemini API(Gemini 1.0 Pro model) with input parameters:`-gemini 2 0.0 "bill gates microsoft" 10`. Complete in 1 interation with 21 relations extracted.
    
 The format of transcript follow this reference: https://www.cs.columbia.edu/~gravano/cs6111/Proj2/Proj2-Transcripts/.
       
@@ -31,21 +31,28 @@ The format of transcript follow this reference: https://www.cs.columbia.edu/~gra
    ```
    
    Run: python3 main.py -$model_name “$JSON_API_KEY” “$Engine_ID” “$Gemini API key" $relation $extract_threshold $seed_query $output_len
+   For example:
+   SpenBERT
    ```
    python3 main.py -spanbert "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "xxx" 2 0.7 "bill gates microsoft" 10
    ```
-* $model_name: indicating the extraction model used. Options: "-spanbert" for SpanBERT or "-gemini" for Google Gemini.
-* $relation: indicating the type of relation to extract. Options: an integer; where Schools_Attended(1), Work_For(2), Live_In(3), Top_Member_Employees(4).
-* $extract_threshold: indicating the "extraction confidence threshold," which is the minimum extraction confidence that we request for the tuples in the output. Option: a float between 0~1. -gemini ignores this parameter.
-* $seed_query: template of a plausible tuple. A list of words in double quotes corresponding to a plausible tuple for the relation to extract. Example:"bill gates microsoft".
-* $output_len: indicating the number of tuples that are requested in the output. Option: an integer >0
-   
+
+   Gemini
+   ```
+   python3 main.py -gemini "AIzaSyBdPoK9zbUZXnDHG4LMMu972zSH7nGdnM8" "56f4e4ae2f4944372" "xxx" 2 0.0 "bill gates microsoft" 10
+   ```
+   * $model_name: indicating the extraction model used. Options: "-spanbert" for SpanBERT or "-gemini" for Google Gemini.
+   * $relation: indicating the type of relation to extract. Options: an integer; where Schools_Attended(1), Work_For(2), Live_In(3), Top_Member_Employees(4).
+   * $extract_threshold: indicating the "extraction confidence threshold," which is the minimum extraction confidence that we request for the tuples in the output. Option: a float between 0~1. -gemini ignores this parameter.
+   * $seed_query: template of a plausible tuple. A list of words in double quotes corresponding to a plausible tuple for the relation to extract. Example:"bill gates microsoft".
+   * $output_len: indicating the number of tuples that are requested in the output. Option: an integer >0.
+      
 4. Description of the internal design of this project:
 
    * High-level Concept[ISE]:
      1. Load the SpanBert pre-trained classifier.
      2. Use the Engine ID with the server we set and the query to get the search result(top-10 webpages), and parse the web content. [search_by_query, parse_response].
-     3. Loop over URLs, and filter out the URL that have seen.
+     3. Iterates through URLs, and filter out the URL that have seen.
      4. For each unseen URL, extract the content and do extract named entities using spaCy. If the content characters >10000, trim the webpage content to 10000. Determine by the model specified, run SB or run_gemini to do information extraction.[information_extraction, page_extraction]
      5. For each query iteration, print out all the extracted relations.[print_pretty_relations]
      6. If the number of extracted relations < $output_len, concatenating the original query with relation that has the highest confident rate and jump back to step 2.
@@ -55,16 +62,29 @@ The format of transcript follow this reference: https://www.cs.columbia.edu/~gra
      1. 
 
 5. Description of SpanBERT and GEMINI method:
+   *Information Extraction[information_extraction]:
+   1. Check and extract the content from the URL.(page_extraction)
+   2. If the content can be used, do Named Entity Recognition by SpaCy and generate doc.
+   3. Feed into LLM to extract the relations.
+   
    *SpanBERT[SB]:
+   Input Web content:doc that has been processed by spaCy, entities_of_interest and relation_index, threshold:conf, relation sets: acc; update relation sets: acc
+   1. Accesses the global spanbert model and sets up variables based on the relation_index to identify the types of entities involved in the desired relation (e.g., PERSON to ORGANIZATION).
+   2. Iterates through each sentence in the doc. For every fifth sentence processed, it prints a progress update.
+   3. For each sentence, it generates candidate entity pairs (candidate_pairs) that match the specified types of entities relevant to the relation of interest.[create_entity_pairs]
+   4. Adjust the subject and object position.
+   5. Uses the SpanBERT model to predict the relation for each candidate pair. The prediction includes the type of relation and a confidence score.
+   6. Filters out predictions where the relation type does not match the target relation or where the confidence is below a specified threshold (conf).
+   7. For predictions that pass the filter, the program checks if the predicted relation is a new extraction or has a higher confidence than a previous prediction for the same entities. If so, the program updates the acc collection with the new prediction.
 
    * Gemini[run_gemini]:
      Input Web content:doc that has been processed by spaCy, entities_of_interest and relation_index, GEMINI_KEY, relation sets: X; update relation sets: X
-     1. Loop over sentences in doc.
+     1. Iterates through each sentence in doc. For every fifth sentence processed, it prints a progress update.
      2. Check if the sentence has required named entities pair(s) using spaCy.[create_entity_pairs]
      3. If yes, generate the prompt with the plain-text sentence and designated relation. In this part, the prompt is originally a one-shot learners, and will expand with extracted relations 
  to maximum 3-shot learners.[gemini.generate_prompt]
-     4. Feed the prompt into Gemini model and get response.[get_gemini_completion]
-     5. Process response. Parse the response into lists of list and if the form of the list is correct update the relation in relation sets. In this step, since we update the dictionary by setting "tuple of relation:1", where 1 is the default confidence for all relationship extracted by Gemini, we do not have to handle the diplicate promblem.
+     4. Feed the prompt into Gemini model and get response.[gemini.get_gemini_completion]
+     5. Process response. Parse the response into lists of list and if the form of the list is correct update the relation in relation sets. In this step, since we update the dictionary by setting "tuple of relation:1", where 1 is the default confidence for all relationship extracted by Gemini, we do not have to handle the diplicate promblem.[gemini.gemini]
    ** Note: To avoid termination with Gemini Resource Exhausted, the program will rest for 10 seconds when catch this error.
    ** Note: If the sentence is processced by Gemini but the return relation is not coherent with the defined format, the # of extracted annotaion from Gemini will increase, but no relation will be added to the finel set.
    **Gemini configuration is set as followed:
