@@ -20,7 +20,7 @@ Reference: https://www.cs.columbia.edu/~gravano/cs6111/Proj2/
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
     * `requirements.txt`: This file lists all the packages used in the project, ensuring compatibility and ease of setup for other users.
     * `transcript_spanbert.txt`: This file contains the results using SpanBERT classifier with input parameters:`-spanbert 2 0.7 "bill gates microsoft" 10`.Complete in 1 interation with 45 relations extracted.
-    * `transcript_gemini.txt`: This file contains the results using Google Gemini API(Gemini 1.0 Pro model) with input parameters:`-gemini 2 0.0 "bill gates microsoft" 10`. Complete in 1 interation with 21 relations extracted.
+    * `transcript_gemini.txt`: This file contains the results using Google Gemini API(Gemini 1.0 Pro model) with input parameters:`-gemini 2 0.0 "bill gates microsoft" 10`. Complete in 1 interation with 35 relations extracted.
    
    The format of transcript follow this reference: https://www.cs.columbia.edu/~gravano/cs6111/Proj2/Proj2-Transcripts/.
       
