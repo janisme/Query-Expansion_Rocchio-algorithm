@@ -4,10 +4,11 @@
    This project serves as an information retrieval system designed to enhance search results provided by Google through user-provided feedback.
    The project takes a user query, typically a word related to the target information, as input.In each iteration, the system expands the query based on user feedback regarding the relevance of the search results to the target. The iteration continues until the accuracy reaches a predefined threshold. 
    The objective is to minimize the number of iterations required to achieve the desired precision threshold, thus optimizing the search process.
-   
+
+   This is a project is developed in Spring 2024 for the course COMS 6111 Advanced Database Systems taught by Professor Luis Gravano at Columbia University.
+
    Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj1.html
-   
-   The project is inspired by CS6111- Advanced Database Systems.
+
    
 ## Detail
 1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
