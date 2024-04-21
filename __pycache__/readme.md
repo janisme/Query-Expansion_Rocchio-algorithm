@@ -11,7 +11,7 @@ This project is an associate rules extraction system designed to find the implie
 ## Detail
 1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
 2. List of files:
-### Folder Structure
+   Folder Structure
 ```sh
 |-data ## The data_root for our evaluation dataset
 |   |-data_cleaner.py # This Python script is designed to clean data downloaded from the NYC Open Data portal.
