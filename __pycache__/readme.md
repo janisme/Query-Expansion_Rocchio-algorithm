@@ -39,7 +39,7 @@ This project is an associate rules extraction system designed to find the implie
     * Testing with toy sample, take min_support_rate as 0.75, min_confidence_rate as 0.8 with toy dataset 'toy'.
       
       ```
-      python3 main.py data/INTEGRATED-DATASET.csv 0.07 0.85
+      python3 main.py toy 0.75 0.8
       ```
       
       result:
