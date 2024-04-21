@@ -36,11 +36,28 @@ This project is an associate rules extraction system designed to find the implie
       ```
 
       Run: python3 main.py <dataset_file> <min_support_rate> <min_confidence_rate>
-       * Take min_support_rate as 0.07, min_confidence_rate as 0.85 with datafile location as data/INTEGRATED-DATASET.csv.
+    * Testing with toy sample, take min_support_rate as 0.75, min_confidence_rate as 0.8 with toy dataset 'toy'.
       
       ```
       python3 main.py data/INTEGRATED-DATASET.csv 0.07 0.85
       ```
+      
+      result:
+       ```
+      Finding k =  1 itemset, ck length:  3
+      Finding k =  2 itemset, ck length:  0
+      =====Frequent itemsets (min_sup=75.0%)
+      [pen], Supp: 100.00%
+      [diary], Supp: 75.00%
+      [ink], Supp: 75.00%
+      [diary,pen], Supp: 75.00%
+      [ink,pen], Supp: 75.00%
+      Total number of frequent itemsets:  5
+      =====High-confidence association rules (min_conf80.0%)
+      [diary] => [pen] :  (Conf: 100.00%, Supp: 75.00%)
+      [ink] => [pen] :  (Conf: 100.00%, Supp: 75.00%)
+      Total number of associate rules:  2
+        ```
       
 5. Description of the data:
 
