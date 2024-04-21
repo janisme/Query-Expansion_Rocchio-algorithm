@@ -29,12 +29,14 @@ This project is an associate rules extraction system designed to find the implie
     * `example-run.txt`: This file contains the results of our project.
     
 4. Instruction to run the project:
+   
+      Enter into the directory where the main.py file is located. Install Python Packages.
+      ```
+      pip install -r requirements.txt
+      ```
 
- Enter into the directory where the main.py file is located. Install Python Packages
-   ```pip install -r requirements.txt   ```
-
-Run: python3 main.py <dataset_file> <min_support_rate> <min_confidence_rate>
-    * Take min_support_rate as 0.07, min_confidence_rate as 0.85 with datafile location as data/INTEGRATED-DATASET.csv.
-   ```
-python3 main.py data/INTEGRATED-DATASET.csv 0.07 0.85 > example-run.txt
-   ```
+      Run: python3 main.py <dataset_file> <min_support_rate> <min_confidence_rate>
+       * Take min_support_rate as 0.07, min_confidence_rate as 0.85 with datafile location as data/INTEGRATED-DATASET.csv.
+      ```
+      python3 main.py data/INTEGRATED-DATASET.csv 0.07 0.85 > example-run.txt
+       ```
