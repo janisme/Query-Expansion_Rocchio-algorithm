@@ -36,27 +36,26 @@ This project is an associate rules extraction system designed to find the implie
       ```
 
       Run: python3 main.py <dataset_file> <min_support_rate> <min_confidence_rate>
-      
        * Take min_support_rate as 0.07, min_confidence_rate as 0.85 with datafile location as data/INTEGRATED-DATASET.csv.
-   
+      
       ```
       python3 main.py data/INTEGRATED-DATASET.csv 0.07 0.85
       ```
       
 6. Description of the data
 
-   a. The NYC Open Data we use is the “NYPD Arrest Data (Year to Date)” from https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data. This is a breakdown of every arrest effected in NYC by the NYPD during the year of 2023.
+      a. The NYC Open Data we use is the “NYPD Arrest Data (Year to Date)” from https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data. This is a breakdown of every arrest effected in NYC by the NYPD during the year of 2023.
  This data is manually extracted every quarter and reviewed by the Office of Management Analysis and Planning.
 
 
-   b. The data cleaning process is outlined as follows:
+      b. The data cleaning process is outlined as follows:
       1. Column Evaluation: We assess the columns in the original dataset and retain those that are relevant to our analysis which are "ARREST_DATE","OFNS_DESC", "LAW_CAT_CD","ARREST_BORO","AGE_GROUP","PERP_SEX", "PERP_RACE".
       2. Null Value Filtering and Date Simplification: We filter out any rows containing null values across all columns. Additionally, dates in the format of mm/dd/yyyy are simplified to retain only the month (mm).
       3. Conversion to Dummy Values: The data is then transformed into dummy variables for further analysis.
   
-   c. Our selection of the NYC Open Data dataset on criminal records is driven by a profound curiosity about the patterns and backgrounds associated with criminal activities within New York City. This dataset presents an invaluable opportunity for an in-depth analysis of the correlation between specific types of crimes and their occurrence in particular regions, as well as the potential connections between these crimes and the backgrounds of the individuals involved. By dissecting this data, we aim to uncover insights that could contribute to a better understanding of the dynamics of crime in the city, potentially guiding preventive strategies and policy making to enhance safety and justice for all New Yorkers.
+      c. Our selection of the NYC Open Data dataset on criminal records is driven by a profound curiosity about the patterns and backgrounds associated with criminal activities within New York City. This dataset presents an invaluable opportunity for an in-depth analysis of the correlation between specific types of crimes and their occurrence in particular regions, as well as the potential connections between these crimes and the backgrounds of the individuals involved. By dissecting this data, we aim to uncover insights that could contribute to a better understanding of the dynamics of crime in the city, potentially guiding preventive strategies and policy making to enhance safety and justice for all New Yorkers.
 
-   d. columns explanation:
+      d. columns explanation:
    * ARREST_DATE : [1~12], represent the month of arrest for the reported event.
    * OFNS_DESC : Description of internal classification. 
    * LAW_CAT_CD: Level of offense: felony, misdemeanor, violation.
