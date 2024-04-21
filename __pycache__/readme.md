@@ -10,7 +10,7 @@ This project is an associate rules extraction system designed to find the implie
    Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj3.html
 ## Detail
 1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
-   Folder Structure
+2. Folder Structure
 ```sh
 |-data ## The data_root for our evaluation dataset
 |   |-data_cleaner.py # This Python script is designed to clean data downloaded from the NYC Open Data portal.
@@ -20,15 +20,15 @@ This project is an associate rules extraction system designed to find the implie
 |-example-run.txt
 |-requirements.txt
 ```
-2. List of files:
+3. List of files:
+    * `data`: This file contains the script to clean the data downloaded from the NY Open data portal and the cleaned data.
     * `main.py`: This is the main Python file responsible for processing the input user query, preprocess the transaction from csv file, generating L1 frequent itemset and running the apriori algorithm .
     * `apriori_algo.py`: This Python file contains several functions used to generate the frequent itemsets list and associate rules.
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
     * `requirements.txt`: This file lists all the packages used in the project, ensuring compatibility and ease of setup for other users.
     * `example-run.txt`: This file contains the results of our project.
-    * `data`: This file contains the script to clean the data downloaded from the NY Open data portal and the cleaned data.
     
-3. Instruction to run the project:
+4. Instruction to run the project:
 
  Enter into the directory where the main.py file is located. Install Python Packages
    ```pip install -r requirements.txt   ```
