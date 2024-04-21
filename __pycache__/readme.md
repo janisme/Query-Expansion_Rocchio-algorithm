@@ -10,7 +10,6 @@ This project is an associate rules extraction system designed to find the implie
    Reference: https://www.cs.columbia.edu/~gravano/cs6111/proj3.html
 ## Detail
 1. Group members: Dawei Yin, dy2482 & Yenchu Chen, yc4360
-2. List of files:
    Folder Structure
 ```sh
 |-data ## The data_root for our evaluation dataset
@@ -21,7 +20,7 @@ This project is an associate rules extraction system designed to find the implie
 |-example-run.txt
 |-requirements.txt
 ```
-
+2. List of files:
     * `main.py`: This is the main Python file responsible for processing the input user query, preprocess the transaction from csv file, generating L1 frequent itemset and running the apriori algorithm .
     * `apriori_algo.py`: This Python file contains several functions used to generate the frequent itemsets list and associate rules.
     * `README.md`: This file contains a description of the project, providing an overview of its purpose and functionality.
