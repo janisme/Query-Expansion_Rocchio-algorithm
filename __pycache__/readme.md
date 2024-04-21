@@ -36,7 +36,13 @@ This project is an associate rules extraction system designed to find the implie
       ```
 
       Run: python3 main.py <dataset_file> <min_support_rate> <min_confidence_rate>
+      
        * Take min_support_rate as 0.07, min_confidence_rate as 0.85 with datafile location as data/INTEGRATED-DATASET.csv.
       ```
       python3 main.py data/INTEGRATED-DATASET.csv 0.07 0.85 > example-run.txt
-       ```
+      ```
+5. Description of the data
+
+   a. The NYC Open Data we use is the “NYPD Arrest Data (Year to Date)” from https://data.cityofnewyork.us/Public-Safety/NYPD-Arrest-Data-Year-to-Date-/uip8-fykc/about_data. This is a breakdown of every arrest effected in NYC by the NYPD during the year of 2023.
+ This data is manually extracted every quarter and reviewed by the Office of Management Analysis and Planning.
+   b.
